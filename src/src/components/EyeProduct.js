@@ -4,7 +4,7 @@ import { addEyeProduct,BuyEyeProduct } from '../Redux/EyeProducts/EyeProductActi
 
 
 const EyeProduct = () => {
-    const noofproducts=useSelector(state=>state.noofeyeproduct);
+    const noofproducts=useSelector(state=>state.eyeProduct.noofeyeproduct);
     console.log(noofproducts)
     const dispatch = useDispatch();
   return (

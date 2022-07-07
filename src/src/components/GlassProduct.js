@@ -4,7 +4,7 @@ import { addGlassProduct,BuyGlassProduct } from '../Redux/GlassProducts/GlassPro
 
 
 const GlassProduct = () => {
-    const noofproducts=useSelector(state=>state.noofglassproduct);
+    const noofproducts=useSelector(state=>state.glassProduct.noofglassproduct);
     // console.log(noofproducts)
     const dispatch = useDispatch();
   return (
