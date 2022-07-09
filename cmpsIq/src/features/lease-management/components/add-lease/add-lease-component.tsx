@@ -22,7 +22,6 @@ import PropertyAutoComplete from "./PropertyAutoComplete";
 import { ApiConnectCallback,post,put } from "@features/api-connect";
 import { PropaneSharp } from "@mui/icons-material";
 
-
 const AddLease = (props: any) => {
   const { id } = useParams();
   const [isEdit, setIsEdit] = useState(false);
